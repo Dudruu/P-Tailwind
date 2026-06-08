@@ -1,54 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="output.css" />
-    <title>Portifolio</title>
-  </head>
-  <body class="font-main">
-    <header
-      class="bg-black items-center text-white justify-between px-8 py-9 flex flex-row"
-    >
-      <div class="flex-row items-center gap-4 flex">
-        <div class="size-12">
-          <img src="./img/Logo.png" alt="Logo do site" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="output.css" />
+      <title>Portifolio</title>
+    </head>
+    <body class="font-main">
+      <header
+        class="bg-black items-center text-white justify-between px-8 py-9 flex flex-row"
+      >
+        <div class="flex-row items-center gap-4 flex">
+          <div class="size-12">
+            <img src="./img/Logo.png" alt="Logo do site" />
+          </div>
+          <h1 class="text-4xl">Portifólio</h1>
         </div>
-        <h1 class="text-4xl">Portifólio</h1>
-      </div>
-      <div class="size-8">
-        <img src="./img/hamburger branco 1.png" alt="menu de escolhas" />
-      </div>
-    </header>
-    <section class="text-black px-6 py-16 bg-white">
-      <div class="max-w-[400px] max-h-[400px]">
-        <img
-          
-          src="./img/Sally sem fundo 1.png"
-          alt="Imagem da Sally, mascote da byron.solutions"
-        />
-      </div>
-      <div class="flex flex-col gap-8">
-        <div class="text-center flex flex-col gap-8 items-center">
-          <div class="flex flex-col gap-8">
-            <h2 class="text-5xl">Conheça a <span class="text-secondary">Sally</span></h2>
-            <div class="flex flex-col ">
-                <h3 class="text-2xl">A mascote da <span class="text-secondary">byron.solutions</span></h3>
-                <p class="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo labore architecto veniam, tenetur qui repellendus sed ab eveniet eaque perferendis?</p>
+        <div class="size-8">
+          <img src="./img/hamburger branco 1.png" alt="menu de escolhas" />
+        </div>
+      </header>
+      <section class="text-black px-6 py-16 bg-white">
+        <div class="max-w-[400px] max-h-[400px]">
+          <img
+            
+            src="./img/Sally sem fundo 1.png"
+            alt="Imagem da Sally, mascote da byron.solutions"
+          />
+        </div>
+        <div class="flex flex-col gap-8">
+          <div class="text-center flex flex-col gap-8 items-center">
+            <div class="flex flex-col gap-8">
+              <h2 class="text-5xl">Conheça a <span class="text-secondary">Sally</span></h2>
+              <div class="flex flex-col ">
+                  <h3 class="text-2xl">A mascote da <span class="text-secondary">byron.solutions</span></h3>
+                  <p class="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo labore architecto veniam, tenetur qui repellendus sed ab eveniet eaque perferendis?</p>
+              </div>
+            </div>
+            <button class=" text-2xl font-semibold text-white bg-main px-4 py-2 rounded-2xl hover:scale-105 transition duration-150 hover:bg-teal-600">SAIBA MAIS</button>
+          </div class="flex flex-col gap-12">
+          <div class="flex flex-row justify-between gap-4 items-center">
+            <p class="text-2xl">Nos Contrate</p>
+            <div class="flex flex-row gap-6">
+              <div class="size-12"><a href="#"><img class="" src="./img/instagram.png" alt="" /></a></div>
+              <div class="size-12"><a href="#"><img src="./img/linkedin.png" alt="" /></a></div>
+              <div class="size-12"><a href="#"><img src="./img/whatsapp.png" alt="" /></a></div>
             </div>
           </div>
-          <button class=" text-2xl font-semibold text-white bg-main px-4 py-2 rounded-2xl hover:scale-105 transition duration-150 hover:bg-teal-600">SAIBA MAIS</button>
-        </div class="flex flex-col gap-12">
-        <div class="flex flex-row justify-between gap-4 items-center">
-          <p class="text-2xl">Nos Contrate</p>
-          <div class="flex flex-row gap-6">
-            <div class="size-12"><a href="#"><img class="" src="./img/instagram.png" alt="" /></a></div>
-            <div class="size-12"><a href="#"><img src="./img/linkedin.png" alt="" /></a></div>
-            <div class="size-12"><a href="#"><img src="./img/whatsapp.png" alt="" /></a></div>
-          </div>
         </div>
-      </div>
-    </section>
-  </body>
-</html>
+      </section>
+      <section class="bg-secondary px-6 py-8 text-black flex flex-col items-center gap-8 lg:gap-16">
+          <h2 class="text-white font-extrabold text-2xl">Últimos Projetos</h2>
+          <div class=" grid grid-flow-row grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+              <div class=" flex flex-col bg-white max-w-[380px] rounded-lg p-3 gap-4 drop-shadow-lg" > 
+                  <div class="h-3/4 rounded-lg overflow-hidden">
+                      <img src="./img/Imagem1.png" alt="" />
+                  </div>
+                  <div class="h-1/4">
+                      <h3 class="text-lg">Projeto 1</h3>
+                      <p class="text-base text-gray">Aplicativo Desktop</p>
+                  </div>
+              </div>
+
+              <div class=" flex flex-col bg-white max-w-[380px] rounded-lg p-3 gap-4 drop-shadow-lg" > 
+                  <div class="h-3/4 rounded-lg overflow-hidden">
+                      <img src="./img/Imagem2.png" alt="" />
+                  </div>
+                  <div class="h-1/4">
+                      <h3 class="text-lg">Projeto 2</h3>
+                      <p class="text-base text-gray">Aplicativo Desktop</p>
+                  </div>
+              </div>
+
+              <div class=" flex flex-col bg-white max-w-[380px] rounded-lg p-3 gap-4 drop-shadow-lg" > 
+                  <div class="h-3/4 rounded-lg overflow-hidden">
+                      <img src="./img/Imagem3.png" alt="" />
+                  </div>
+                  <div class="h-1/4">
+                      <h3 class="text-lg">Projeto 3</h3>
+                      <p class="text-base text-gray">Aplicativo Desktop</p>
+                  </div>
+              </div>
+
+              <div class=" flex flex-col bg-white max-w-[380px] rounded-lg p-3 gap-4 drop-shadow-lg" > 
+                  <div class="h-3/4 rounded-lg overflow-hidden">
+                      <img src="./img/Imagem1.png" alt="" />
+                  </div>
+                  <div class="h-1/4">
+                      <h3 class="text-lg">Projeto 4</h3>
+                      <p class="text-base text-gray">Aplicativo Desktop</p>
+                  </div>
+              </div>
+
+              <div class=" flex flex-col bg-white max-w-[380px] rounded-lg p-3 gap-4 drop-shadow-lg" > 
+                  <div class="h-3/4 rounded-lg overflow-hidden">
+                      <img src="./img/Imagem2.png" alt="" />
+                  </div>
+                  <div class="h-1/4">
+                      <h3 class="text-lg">Projeto 5</h3>
+                      <p class="text-base text-gray">Aplicativo Desktop</p>
+                  </div>
+              </div>
+              <div class=" flex flex-col bg-white max-w-[380px] rounded-lg p-3 gap-4 drop-shadow-lg" > 
+                  <div class="h-3/4 rounded-lg overflow-hidden">
+                      <img src="./img/Imagem3.png" alt="" />
+                  </div>
+                  <div class="h-1/4">
+                      <h3 class="text-lg">Projeto 6</h3>
+                      <p class="text-base text-gray">Aplicativo Desktop</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+    </body>
+  </html>
